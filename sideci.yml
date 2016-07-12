@@ -1,6 +1,7 @@
 linter:
   gometalinter:
     options:
-      disable:
+      disable-all: true
+      enable:
         - golint
         - vet
