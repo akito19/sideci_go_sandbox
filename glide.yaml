@@ -1,0 +1,6 @@
+package: github.com/actcat/sideci_go_sandbox
+import:
+- package: github.com/labstack/echo
+  version: ^2.0.0
+  subpackages:
+  - engine/standard
