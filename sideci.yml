@@ -1,0 +1,7 @@
+linter:
+  gometalinter:
+    options:
+      linter:
+        - 'my_golint:golint -min_confidence {min_confidence} {path}:PATH:LINE:COL:MESSAGE'
+      disable-all: true
+      enable: my_golint
