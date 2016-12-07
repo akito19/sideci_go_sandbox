@@ -1,0 +1,4 @@
+linter:
+  gometalinter:
+    options:
+      fast: true
