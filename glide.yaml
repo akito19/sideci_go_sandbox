@@ -4,3 +4,6 @@ import:
   version: ^2.0.0
   subpackages:
   - engine/standard
+- package: github.com/sideci/go_private_library
+  vcs: git
+  repo: git@github.com:sideci/go_private_library.git

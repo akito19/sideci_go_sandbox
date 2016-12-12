@@ -1,8 +1,8 @@
-hash: e3495d4e66f357f1ff4060b610ee6b2655e3093807bc3e6e31eee2f6256f9173
-updated: 2016-11-03T15:19:29.456094441+09:00
+hash: a2e7ea1241bc2fc087533c1979b38419f67d83fd0a907c16ef8b45c90400911d
+updated: 2016-12-12T14:52:48.023085001+09:00
 imports:
 - name: github.com/labstack/echo
-  version: 04e6901d05b58ddbae579a6252a3d1bb3f334adc
+  version: e08070379af60f5b9c0fb5bb2d1527ba9624fe43
   subpackages:
   - context
   - engine
@@ -17,6 +17,10 @@ imports:
   version: 6e26b354bd2b0fc420cb632b0d878abccdc6544c
 - name: github.com/mattn/go-isatty
   version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/sideci/go_private_library
+  version: 6b55af2600c13961147eda4dbc55add5d38e0454
+  repo: git@github.com:sideci/go_private_library.git
+  vcs: git
 - name: github.com/valyala/fasttemplate
   version: 3b874956e03f1636d171bda64b130f9135f42cff
 - name: golang.org/x/net
