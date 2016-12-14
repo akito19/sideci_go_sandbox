@@ -1,6 +1,7 @@
 package main
 
 import (
+	"awesomepath/lib"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -8,10 +9,7 @@ import (
 )
 
 func main() {
-	var hoge = "hogehoge"
-	var _ = hoge
-	ioutil.ReadFile("dirty.go")
-	fmt.Printf("%d\n")
+	fmt.Println(lib.F(10))
 }
 
 func Foo(arg string) int {

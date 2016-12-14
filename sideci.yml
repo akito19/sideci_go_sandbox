@@ -1,0 +1,3 @@
+linter:
+  gometalinter:
+    install_path: 'awesomepath'
