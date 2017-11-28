@@ -7,13 +7,6 @@ import (
 	"os"
 )
 
-func main() {
-	var hoge = "hogehoge"
-	var _ = hoge
-	ioutil.ReadFile("dirty.go")
-	fmt.Printf("%d\n")
-}
-
 func Foo(arg string) int {
 	return 1
 	return 1
